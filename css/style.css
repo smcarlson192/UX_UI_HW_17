@@ -4,14 +4,24 @@ body {
 }
 header {
     width: 100%; 
-    height: 100%; 
+    height: 158px; 
     padding-left: 72px; 
     padding-right: 72px; 
     background: linear-gradient(90deg, #E2E6F2 0%, #D1EBEE 25%, #E9E0F2 50%, #E2E6F2 76%, #EBF3DE 100%); 
     flex-direction: column; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
     align-items: flex-start; 
     gap: 10px; 
+    display: inline-flex;
+}
+.navbar {
+    width: 90%; 
+    height: 100%; 
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 24px; 
     display: inline-flex;
 }
 h1 {width: 1584px; 
@@ -66,15 +76,16 @@ h6 {
     margin-inline-end: 0px;
 }
 .header {
-    width: 100%; 
-    height: 100%; 
+    width: 95%; 
+    max-height: 158px; 
     padding-top: 24px; 
     padding-bottom: 24px; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
     align-items: flex-end; 
     gap: 179px; 
     display: inline-flex;
 }
+
 .logo {justify-content: flex-start;
      align-items: center; 
      gap: 24px; 
@@ -92,7 +103,16 @@ h6 {
     align-items: center; 
     display: inline-flex;
 }
-
+.navbar {
+    width: 100%; 
+    height: 100%; 
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex;
+}
 .navigation-item {
     color: #1A135A; 
     font-size: 24px; 
@@ -114,14 +134,26 @@ h6 {
     align-items: center; 
     gap: 10px; 
     display: flex;
+    color: white;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word
 }
-.button-font {
-    color: white; 
-    font-size: 24px; 
-    font-family: Open Sans; 
-    font-weight: 600; 
-    text-transform: uppercase; 
-    word-wrap: break-word;
+.button:hover {
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    background: #565272; 
+    box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+    font-weight: 700;
 }
 .hero-home {
     width: 100%; 
@@ -154,8 +186,6 @@ h6 {
     align-items: center; 
     gap: 10px; 
     display: flex;
-}
-.button-2-font {
     color: #1A135A; 
     font-size: 20px; 
     font-family: Open Sans; 
@@ -163,29 +193,52 @@ h6 {
     text-transform: uppercase; 
     word-wrap: break-word
 }
-
+.button-2:hover {
+    padding-left: 24px; 
+    padding-right: 24px; 
+    padding-top: 12px; 
+    padding-bottom: 12px; 
+    background: #C9C7D6; 
+    box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+    border-radius: 100px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+    font-weight: 700;
+}
 footer {
     width: 100%; 
-    height: 100%; 
+    max-height: 158px; 
     padding-left: 72px; 
     padding-right: 72px; 
-    padding-top: 48px; 
-    padding-bottom: 48px; 
+    padding-top: 24px; 
+    padding-bottom: 24px; 
     background: linear-gradient(90deg, #E2E6F2 0%, #D1EBEE 25%, #E9E0F2 50%, #E2E6F2 76%, #EBF3DE 100%); 
-    justify-content: flex-start; 
-    align-items: flex-end; 
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex;
+}
+.footerbar {
+    width: 95%; 
+    height: 100%; 
+    padding-top: 24px; 
+    padding-bottom: 24px; 
+    justify-content: space-between; 
+    align-items: center; 
     gap: 24px; 
     display: inline-flex;
 }
 .contact-column {
     flex-direction: column; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
     align-items: flex-start; 
     display: inline-flex;
 }
 .follow-column {
     width: 377px; 
-    justify-content: flex-start; 
+    justify-content: space-between; 
     align-items: center; 
     gap: 24px; 
     display: inline-flex;
