@@ -177,3 +177,9 @@ footer {
     gap: 24px; 
     display: inline-flex;
 }
+.contact-column {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
