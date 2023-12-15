@@ -38,6 +38,18 @@ h1 {width: 1584px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+h2 {
+    color: #1A135A; 
+    font-size: 48px; 
+    font-family: Hind; 
+    font-weight: 600; 
+    line-height: 56.80px; 
+    word-wrap: break-word;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 h3 {
     color: #1A135A; 
     font-size: 32px; 
@@ -63,7 +75,19 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-h6 {
+h5 {
+    color: #1A135A; 
+    font-size: 24px; 
+    font-family: Hind; 
+    font-weight: 500; 
+    line-height: 32px; 
+    word-wrap: break-word;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h6, p {
     width: 378px; 
     color: #1A135A; 
     font-size: 20px; 
@@ -76,7 +100,7 @@ h6 {
     margin-inline-end: 0px;
 }
 .header {
-    width: 95%; 
+    width: 100%; 
     max-height: 158px; 
     padding-top: 24px; 
     padding-bottom: 24px; 
@@ -122,7 +146,7 @@ h6 {
     word-wrap: break-word;
     display: inline-flex;
 }
-.button {
+.button-1 {
     padding-left: 24px; 
     padding-right: 24px; 
     padding-top: 12px; 
@@ -141,7 +165,7 @@ h6 {
     text-transform: uppercase;
     word-wrap: break-word
 }
-.button:hover {
+.button-1:hover {
     padding-left: 24px; 
     padding-right: 24px; 
     padding-top: 12px; 
@@ -262,4 +286,104 @@ footer {
     font-family: Open Sans; 
     font-weight: 400; 
     word-wrap: break-word;
+}
+.featured-section {
+    width: 100%; 
+    height: 100%; 
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    justify-content: space-between; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+    background:rgba(176, 198, 217, 0.25);
+}
+.featured-box {
+    width:100%;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 24px;
+}
+.featured-copy {
+    width: auto;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+.accordion {
+    background-color: #B0C6D9;
+    color: #1A135A;
+    cursor: pointer;
+    padding: 24px;
+    width: auto;
+    text-align: left;
+    border-top:#1A135A;
+    border-bottom: #1A135A;
+    border-radius: 8px; 
+    outline: none;
+    border: none;
+    font-size: 24px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #B0C6D9; 
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #1A135A;
+    font-weight: bold;
+    float: right;
+    margin-left: 24px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    width: auto;
+    padding: 24px;
+    display: none;
+    overflow: hidden;
+  }
+  .project-card {
+    width: 512px; 
+    align-self: stretch; 
+    background-color: white; 
+    box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+    border-radius: 8px; 
+    gap: none;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+  }
+  .project-photo {align-self: stretch; 
+    flex: 1 1 0; 
+    object-fit: cover;
+    border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; 
+    border: 12px white solid;
+}
+.project-card-bottom {
+    background-color: white;
+    width: 488px;
+    align-self: stretch; 
+    border-bottom-left-radius: 8px; 
+    border-bottom-right-radius: 8px;
+    justify-content: space-between; 
+    align-items: center; 
+    display: inline-flex;
+    padding: 24px;
+}
+.project-card-bottom-content {
+    justify-content: space-between; 
+    align-items: center; 
+    display: flex;
 }
