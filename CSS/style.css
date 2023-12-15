@@ -183,3 +183,10 @@ footer {
     align-items: flex-start; 
     display: inline-flex;
 }
+.follow-column {
+    width: 377px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex;
+}
