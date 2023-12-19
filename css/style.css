@@ -379,7 +379,6 @@ footer {
     border-bottom-right-radius: 8px;
     justify-content: space-between; 
     align-items: center; 
-    display: inline-flex;
     padding: 24px;
 }
 .project-card-bottom-content {
