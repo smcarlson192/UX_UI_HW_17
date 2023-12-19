@@ -1,10 +1,11 @@
 body {
     margin:0;
     padding:0;
+    display:block;
 }
 header {
-    width: 100%; 
-    height: 158px; 
+    height: 96px; 
+    width: 94%;
     padding-left: 72px; 
     padding-right: 72px; 
     background: linear-gradient(90deg, #E2E6F2 0%, #D1EBEE 25%, #E9E0F2 50%, #E2E6F2 76%, #EBF3DE 100%); 
@@ -14,15 +15,35 @@ header {
     gap: 10px; 
     display: inline-flex;
 }
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 24px;
+    font-family: Hind; 
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+li {
+    text-align: center;
+    padding: 24px;
+    color:#1A135A;
+}
+
 .navbar {
     width: 90%; 
     height: 100%; 
     padding-top: 24px; 
     padding-bottom: 24px; 
-    justify-content: space-between; 
+    float: right;
     align-items: center; 
     gap: 24px; 
-    display: inline-flex;
+    display: block;
 }
 h1 {width: 1584px; 
     height: 89px; 
@@ -101,7 +122,7 @@ h6, p {
 }
 .header {
     width: 100%; 
-    max-height: 158px; 
+    max-height: 96px; 
     padding-top: 24px; 
     padding-bottom: 24px; 
     justify-content: space-between; 
@@ -180,7 +201,7 @@ h6, p {
     font-weight: 700;
 }
 .hero-home {
-    width: 100%; 
+    width: 94%; 
     height: 100%; 
     padding-left: 72px; 
     padding-right: 72px;
@@ -232,8 +253,8 @@ h6, p {
     font-weight: 700;
 }
 footer {
-    width: 100%; 
-    max-height: 158px; 
+    width: 94%; 
+    max-height: 120px; 
     padding-left: 72px; 
     padding-right: 72px; 
     padding-top: 24px; 
@@ -268,7 +289,7 @@ footer {
     display: inline-flex;
 }
 .copyright {
-    width: 100%;
+    width: 94%;
     height: 100%;
     padding-left: 72px;
     padding-right: 72px;
@@ -288,7 +309,7 @@ footer {
     word-wrap: break-word;
 }
 .featured-section {
-    width: 100%; 
+    width: 94%; 
     height: 100%; 
     padding-left: 72px;
     padding-right: 72px;
@@ -326,7 +347,7 @@ footer {
     border-radius: 8px; 
     outline: none;
     border: none;
-    font-size: 24px;
+    font-size: 20px;
     transition: 0.4s;
   }
   
