@@ -27,12 +27,18 @@ ul {
     font-family: Hind; 
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 600;
 }
 
 li {
     text-align: center;
     padding: 24px;
     color:#1A135A;
+}
+
+li:hover {
+    font-weight: 700;
+    font-size: 19px;
 }
 
 .navbar {
@@ -45,6 +51,7 @@ li {
     gap: 24px; 
     display: block;
 }
+
 h1 {width: 1584px; 
     height: 89px; 
     color: #1A135A; 
@@ -175,6 +182,7 @@ h6, p {
     background: #1A135A; 
     box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
     border-radius: 100px; 
+    border: none;
     justify-content: center; 
     align-items: center; 
     gap: 10px; 
@@ -226,6 +234,7 @@ h6, p {
     padding-bottom: 12px; 
     background: #E8E7F0; 
     box-shadow: 0px 2px 4px rgba(51, 76, 92, 0.30); 
+    border: none;
     border-radius: 100px; 
     justify-content: center; 
     align-items: center; 
@@ -336,11 +345,11 @@ footer {
     display: inline-flex;
 }
 .accordion {
+    width: 536px;
     background-color: #B0C6D9;
     color: #1A135A;
     cursor: pointer;
     padding: 24px;
-    width: auto;
     text-align: left;
     border-top:#1A135A;
     border-bottom: #1A135A;
